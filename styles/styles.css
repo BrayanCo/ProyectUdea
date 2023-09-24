@@ -40,19 +40,40 @@
 }
 
 .login {
-    background-image: url("../images/iniciosesion.jpg");
+    background-image: url("../images/ImagePrueba.jpg");
+    /* background-image: url("../images/iniciosesion.jpg"); */
     background-repeat: no-repeat;
     background-size: 100rem;
+    background-position: center;
 }
 /* CSS PAGINA LOGUP */
 
 .logup {
-    background-image: url("../images/gallinas.jpg");
+    background-image: url("../images/ImagenFormulario.jpg");
+    /* background-image: url("../images/ImagenPrincipal.jpg"); */
+    /* background-image: url("../images/gallinas.jpg"); */
     background-repeat: no-repeat;
     background-size: 100rem;
+    background-position: center;
+}
+
+.abs-left {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    min-height: 30vh;
+}
+
+.formularioOne{
+    font-style: italic;
 }
 
 /* CSS PAGINA ADMIN */
 li {
    list-style-type: none;
+}
+/* CSS PAGINA HOME */
+
+.obesos{
+    text-align: justify;
 }

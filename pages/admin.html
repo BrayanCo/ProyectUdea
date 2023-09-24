@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../styles/styles.css">
 </head>
 
-<body>
+<body class="admin">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
@@ -40,18 +40,53 @@
             </div>
         </div>
     </nav>
-    <div class="row w-100 m-0">
-        <div class="col-2 vh-100">
-            <div class="text-center">
-                <ul>
-                    <li>Inventario</li>
-                    <li>Historial De Compras</li>
-                    <li>Generar registro de ventas</li>
+    <div class="row w-100 m-0 text-light">
+        <div class="col-2 py-1 vh-100">
+            <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-success rounded vh-100">
+                <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                  <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap" style="width: 280px"></use></svg>
+                  <span class="fs-4">Menu</span>
+                </a>
+                <hr>
+                <ul class="nav nav-pills flex-column mb-auto">
+                  <li class="nav-item">
+                    <a href="admin.html" class="nav-link text-white" aria-current="page">
+                      Home
+                    </a>
+                  </li>
+                  <li>
+                    <a href="admin.html" class="nav-link text-white">
+                      Inventario
+                    </a>
+                  </li>
+                  <li>
+                    <a href="admin.html" class="nav-link text-white">
+                      Historial De Compra
+                    </a>
+                  </li>
+                  <li>
+                    <a href="admin.html" class="nav-link text-white">
+                      Genera Registro de ventas
+                    </a>
+                  </li>
                 </ul>
-            </div>
+                <hr>
+                <div class="dropdown">
+                  <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="../images/Autor.png" alt="" width="32" height="32" class="rounded-circle me-2">
+                    <strong>Brayan Collazos</strong>
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
+                    <li><a class="dropdown-item" href="#">Configuración</a></li>
+                    <li><a class="dropdown-item" href="#">Perfil</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="index.html">Salir</a></li>
+                  </ul>
+                </div>
+              </div>
         </div>
         <div class="col-10 m-0"
-            style="background-image: url('https://img.freepik.com/foto-gratis/gallina-alto-angulo-sentada-heno-granja_23-2149456954.jpg?w=996&t=st=1695435371~exp=1695435971~hmac=491f90805a1eb5f2949bea163e7e3189f0e47d6609f6bd73f12138a14a5e1db6'); background-repeat: no-repeat; background-size: cover;">
+            style="background-image: url('../images/ImagenPrincipal.jpg'); background-repeat: no-repeat; background-size: cover;">
         </div>
     </div>
     <footer>
@@ -61,7 +96,7 @@
         <div class="row w-100">
             <div class="left col-4">
                 <p>Brayan Collazos</p>
-                <p><img src="../images/telefono.png" title="Pagina Principal" width="30" height="30"> 300000000</p>
+                <p><img src="../images/telefono.png" title="Pagina Principal" width="30" height="30"> 3204036357</p>
                 <p><img src="../images/gmail.png" title="Pagina Principal" width="25" height="20">
                     agrocentrobarbosa@gmail.com</p>
                 <p><img src="../images/ubicación.png" title="Pagina Principal" width="30" height="30">Cra 7 10-12</p>
