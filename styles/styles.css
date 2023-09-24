@@ -1,0 +1,79 @@
+/* CSS DE LA PAGINA INDEX */
+.contact {
+    text-align: center;
+}
+
+.imageOfVision {
+    opacity: 70%;
+}
+
+.mision {
+    text-align: justify;
+}
+
+.vision {
+    text-align: justify;
+}
+
+.imageIndex {
+    text-align: center;
+    padding-top: 1%;
+}
+
+.left {
+    text-align: left;
+    padding-left: 4rem;
+}
+
+.right {
+    text-align: center;
+    padding-top: 2%;
+}
+
+/* CSS PAGINA LOGIN */
+
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 30vh;
+}
+
+.login {
+    background-image: url("../images/ImagePrueba.jpg");
+    /* background-image: url("../images/iniciosesion.jpg"); */
+    background-repeat: no-repeat;
+    background-size: 100rem;
+    background-position: center;
+}
+/* CSS PAGINA LOGUP */
+
+.logup {
+    background-image: url("../images/ImagenFormulario.jpg");
+    /* background-image: url("../images/ImagenPrincipal.jpg"); */
+    /* background-image: url("../images/gallinas.jpg"); */
+    background-repeat: no-repeat;
+    background-size: 100rem;
+    background-position: center;
+}
+
+.abs-left {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    min-height: 30vh;
+}
+
+.formularioOne{
+    font-style: italic;
+}
+
+/* CSS PAGINA ADMIN */
+li {
+   list-style-type: none;
+}
+/* CSS PAGINA HOME */
+
+.obesos{
+    text-align: justify;
+}
